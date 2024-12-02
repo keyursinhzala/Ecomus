@@ -1,0 +1,291 @@
+.k-nav{
+    display: none;
+}
+.ksm-nav{
+ 
+}
+
+.navbar{
+min-height: 100px;
+background-color: white !important;
+position:fixed !important;
+width: 100%;
+
+
+z-index: 11111;
+
+}
+
+.respo-nav{
+    display: none !important;
+}
+
+
+.b-red{
+    border: 1px solid red;
+}
+.home-page{
+    background-image: url(sneaker-1.jpg);
+    min-height: 90vh;
+    background-size: cover;
+padding-top: 100px !important;
+background-position: right;
+}
+.home-text{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+    flex-direction: column;
+}
+
+
+.category-con{
+
+background-color: white;
+min-height: 52vh;
+
+
+}
+
+.inner-con{
+    width: 90%;
+   min-height: 35vh;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+
+
+.sneaker-but{
+
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 500;
+    transition: all .5s linear;
+}
+.sneaker-but:hover{
+    transform: scale(1.05);
+    transition: all .5s linear;
+    background-color: black;
+    color: white;
+}
+.sneaker-but:hover .sneak-but{
+    display: flex;
+    transition: all .5s linear;
+}
+.sneak-but{
+    display: none;
+    transition: all .5s linear;
+}
+.shoe-img{
+transition: all .5s linear;
+
+}
+.shoe-img:hover{
+transform: scale(1.08);
+transition: all .5s linear;
+}
+
+.brand-container{
+    width: 95% !important;
+    border-radius: 10px !important;
+}
+.b-item{
+   
+}
+
+.info-text{
+    color: white;
+    top: 3%;
+  
+    z-index: 111;
+    left: 3%;
+}
+.info-right-top{
+    color: white;
+   bottom: 11%;
+    z-index: 111;
+    left: 8%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.right-portion-img:hover{
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+    }
+
+    .right-portion-img{
+        transition: 1s all ease-in-out;
+    }
+    
+
+.left-portion-img{
+    transition: 1s all ease-in-out;
+}
+
+.left-portion-img:hover{
+transform: scale(1.1);
+transition: 1s all ease-in-out;
+}
+.left-img-con{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.info-text-second{
+    color: white;
+    bottom: 5%;
+    left: 8%;
+}
+
+.row-1{
+    transition:.5s linear; 
+
+}
+.row-1:hover{
+    color: white;
+    background-color: black !important;
+transition:.5s linear;
+transform: translateY(-5px);
+}
+
+
+.row-2{
+    transition:.5s linear; 
+
+}
+.row-2:hover{
+    color: white;
+    background-color: black !important;
+transition:.5s linear;
+transform: translateY(-5px);
+}
+
+.row-3{
+    transition:.5s linear; 
+
+}
+.row-3:hover{
+    color: white;
+    background-color: black !important;
+transition:.5s linear;
+transform: translateY(-5px);
+}
+
+.row-4{
+    transition:.5s linear; 
+
+}
+.row-4:hover{
+    color: white;
+    background-color: black !important;
+transition:.5s linear;
+transform: translateY(-5px);
+}
+.row-5{
+    transition:.5s linear; 
+
+}
+.row-5:hover{
+    color: white;
+    background-color: black !important;
+transition:.5s linear;
+transform: translateY(-5px);
+}
+.input-div{
+    display: flex;
+    gap: 30px;
+}
+
+.last-page{
+    background-image: url(bg-sneaker.jpg);
+    width:100% !important;
+   min-height: 60vh;
+   background-size: cover;
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
+
+}
+.last-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.foot-item{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.foot-item01{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.foot-item02{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.con-last{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.inner-con-last{
+    width: 65% !important;
+    min-height:50vh !important;
+    border-radius: 0px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+    background-color: white;
+}
